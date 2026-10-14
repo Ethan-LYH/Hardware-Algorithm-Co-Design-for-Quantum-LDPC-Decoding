@@ -1,2 +1,24 @@
-/.idea/
-/venv/
+# environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# compiled libraries (rebuild with make / make -f Makefile_v4)
+*.so
+*.o
+
+# regenerable caches (big matrices / Hrows tables, rebuilt automatically on first run)
+data/circuits/*.pkl
+
+# run outputs and logs
+*.log
+nohup.out
+data/*.csv
+data/*.png
+
+# editor / backup files
+*.bak
+*.pre_struct
+.DS_Store

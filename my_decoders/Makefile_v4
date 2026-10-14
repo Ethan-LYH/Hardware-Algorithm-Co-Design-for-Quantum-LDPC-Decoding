@@ -1,0 +1,8 @@
+# Build the v4 decoder library (does not touch hbplib_v2.so)
+all: hbplib_v4.so
+
+hbplib_v4.so: hbp_decoder_v4.c
+	gcc -O3 -fPIC -shared -fopenmp -o hbplib_v4.so hbp_decoder_v4.c -lm
+
+clean:
+	rm -f hbplib_v4.so

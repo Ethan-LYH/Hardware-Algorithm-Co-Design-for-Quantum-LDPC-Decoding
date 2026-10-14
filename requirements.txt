@@ -1,0 +1,13 @@
+# v2 pipeline (paper reproduction) and all v4 C-only tools
+numpy
+scipy
+stim
+sinter
+ldpc
+pymatching
+networkx
+matplotlib
+tqdm
+
+# only for the v4 trainer / equivalence test (train_beta_v4.py, test_equivalence_v4.py)
+torch
